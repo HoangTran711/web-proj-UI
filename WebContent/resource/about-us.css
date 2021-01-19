@@ -1,0 +1,147 @@
+body {
+	padding:0;
+	margin:0;
+
+}
+.about-us {
+	
+}
+
+.btn-pink {
+	cursor:pointer;
+	background-color: #f53f85;
+	border: 1px solid #f53f85;
+	color:white;
+	font-size:15px;
+	padding: 13px 20px;
+	font-weight:bold;
+	margin-right:10px;
+	text-transform:uppercase;
+	
+}
+.btn-gray {
+	cursor:pointer;
+	background-color: transparent;
+	border: 1px solid black;
+	padding: 13px 20px;
+	font-weight:600;
+	font-size:15px;
+	text-transform:uppercase;
+	transition: all .5s;
+}
+#about {
+	
+}
+.overlay{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:1000000000000;	
+	background-color: rgba(8,8,8,.8);
+	visibility:hidden;
+	opacity:0;
+	transition:all .3s;
+}
+.footer .instagram-container {
+	width:100vw;
+	overflow:hidden;
+	display: flex;
+	flex-direction:row;
+}
+.footer {
+	padding:0;
+	margin:0;
+	background-color:black;
+	
+}
+.footer .instagram-container {
+	margin:0;
+	padding:0;
+}
+.footer .instagram-container .item {
+	position:relative;
+	
+}
+.footer .instagram-container .item img{
+	max-width:240px;
+}
+.footer .instagram-container .item:hover i {
+	opacity:1;
+	transform:translate(-50%,-50%);
+}
+.footer .instagram-container .item i {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, 30%);
+	opacity:0;
+	transition:all .3s;
+	cursor:pointer;
+	font-size:40px;
+	color:white;
+	
+}
+
+.about-us .header {
+	margin-top:80px;
+	display:flex;
+	background-color:#F2F2F2;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding:15px 120px;
+}
+.about-us .header h1 {
+	font-size:24px;
+}
+.about-us .header .link-container a{
+	color:black;
+	text-decoration: none;
+	padding:0px 10px;
+	font-weight: 600;
+}
+.about-us .header .link-container .item1 {
+	border-right:1px solid #A4A4A4;
+}
+.about-us .header .link-container .active {
+	color: #f53f85;
+}
+.section1 {
+	display: flex;
+	flex-direction: row;
+	padding:100px 120px;
+}
+.section1 .img-container {
+	position:relative;
+}
+.section1 .img-container .image0{
+	width:400px;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.section1 .img-container .image1{
+	position:absolute;
+	top:50%;
+	right:0%;
+	width:250px;
+	border-radius: 5px;
+	transform:translateX(50%);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.section1 .txt-frame {
+	margin-left:200px;
+}
+.section1 .txt-frame span {
+	color:#f53f85;
+	font-size:17px;
+	font-weight: 600;
+
+}
+.section1 .txt-frame p {
+	font-size:18px; 
+	line-height: 1.8;
+	color: #777;
+}
